@@ -1,0 +1,24 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="thWeb:war exploded">
+    <output-path>$PROJECT_DIR$/thWeb/target/thWeb-1.0-SNAPSHOT</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="thBackWeb/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="thBackWeb" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="archive" name="thService-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="thService" />
+          </element>
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.14" />
+          <element id="library" level="project" name="Maven: org.slf4j:jul-to-slf4j:1.7.14" />
+          <element id="library" level="project" name="Maven: org.slf4j:log4j-over-slf4j:1.7.14" />
+          <element id="library" level="project" name="Maven: org.slf4j:jcl-over-slf4j:1.7.14" />
+          <element id="library" level="project" name="Maven: ch.qos.logback:logback-classic:1.1.7" />
+          <element id="library" level="project" name="Maven: ch.qos.logback:logback-core:1.1.7" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

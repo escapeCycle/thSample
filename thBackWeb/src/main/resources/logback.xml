@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <!-- encoders are assigned the type
+           ch.qos.logback.classic.encoder.PatternLayoutEncoder by default -->
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="console" class="ch.qos.logback.core.ConsoleAppender">
+        <!--<encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">-->
+        <encoder class="com.xunhuan.logging.logback.TraceNoPatternLayoutEncoder">
+            <!--<pattern>[%-5level] %d{HH:mm:ss.SSS} [%thread] %logger{36} - %msg%n</pattern>-->
+            <charset>UTF-8</charset>
+            <pattern>${default_pattern}</pattern>
+        </encoder>
+    </appender>
+
+    <!-- 业务日志 -->
+    <appender name="businessLogFile" class="ch.qos.logback.core.rolling.RollingFileAppender" ><!-- 滚动记录文件，先将日志记录到指定文件，当符合某个条件时，将日志记录到其他文件。 -->
+        <file>${catalina.base}/logs/business.log</file><!-- 被写入的文件名，可以是相对目录，也可以是绝对目录，如果上级目录不存在会自动创建，没有默认值 -->
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy"><!-- 当发生滚动时，决定 RollingFileAppender 的行为，涉及文件移动和重命名 -->
+            <fileNamePattern>${catalina.base}/logs/business-%d{yyyy-MM-dd}_%i.log.zip</fileNamePattern>
+            <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP"><!--  按时间回滚的同时，按文件大小来回滚 -->
+                <maxFileSize>100MB</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+        <encoder><!-- 对记录事件进行格式化 -->
+            <pattern>%date{yyyy-MM-dd HH:mm:ss.SSS} %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- 错误日志 -->
+    <appender name="errorlogFile" class="ch.qos.logback.core.rolling.RollingFileAppender" ><!-- 按log文件最大长度限度生成新文件 -->
+        <file>${catalina.base}/logs/error.log</file>
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter" >
+            <level>ERROR</level>
+        </filter>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy"><!-- 当发生滚动时，决定 RollingFileAppender 的行为，涉及文件移动和重命名 -->
+            <fileNamePattern>${catalina.base}/logs/error-%d{yyyy-MM-dd}_%i.log.zip</fileNamePattern>
+            <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP"><!--  按时间回滚的同时，按文件大小来回滚 -->
+                <maxFileSize>100MB</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%date{yyyy-MM-dd HH:mm:ss.SSS} %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <root level="info">
+        <appender-ref ref="STDOUT" />
+        <appender-ref ref="businessLogFile" />
+        <appender-ref ref="errorlogFile" />
+    </root>
+</configuration>

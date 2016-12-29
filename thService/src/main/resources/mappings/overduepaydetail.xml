@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xunhuan.mapper.BidOverduePayDetailMapper">
+
+    <select id="list" resultType="OverdueEEndPayDetail">
+        select * from t_overdue_end_pay_detail t
+        <where>
+            1=1
+            <if test="bidId != null and bidId != ''">
+                and t.bid_id = #{bidId}
+            </if>
+        </where>
+    </select>
+
+    <insert id="insert">
+        INSERT INTO t_overdue_end_pay_detail (
+        bid_id,
+        amount,
+        bid_surplus_amount,
+        pay_time,
+        reason,
+        create_time,
+        update_time,
+        overdue_operator,
+        remark
+        ) VALUES (
+        #{bidId},
+        #{amount},
+        #{bidSurplusAmount},
+        #{payTime},
+        #{reason},
+        #{createTime},
+        #{updateTime},
+        #{overdueOperator},
+        #{remark}
+        )
+    </insert>
+
+</mapper>

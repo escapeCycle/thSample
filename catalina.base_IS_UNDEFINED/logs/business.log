@@ -1,0 +1,326 @@
+2016-12-29 11:35:05.913 INFO  o.s.t.c.w.WebTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-12-29 11:35:05.962 INFO  o.s.t.c.w.WebTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@346d61be, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@55536d9e, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@747edf66, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3d1cfad4, org.springframework.test.context.transaction.TransactionalTestExecutionListener@62230c58, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2cd2a21f]
+2016-12-29 11:35:06.195 INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring/spring-core.xml]
+2016-12-29 11:35:06.492 INFO  o.s.b.f.x.DefaultBeanDefinitionDocumentReader - Skipped XML bean definition file due to specified profiles [dev] not matching: class path resource [spring/spring-core.xml]
+2016-12-29 11:35:06.493 INFO  o.s.b.f.x.DefaultBeanDefinitionDocumentReader - Skipped XML bean definition file due to specified profiles [prod] not matching: class path resource [spring/spring-core.xml]
+2016-12-29 11:35:06.495 INFO  o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@68c9133c: startup date [Thu Dec 29 11:35:06 CST 2016]; root of context hierarchy
+2016-12-29 11:35:06.790 INFO  o.s.mock.web.MockServletContext - Initializing Spring FrameworkServlet ''
+2016-12-29 11:35:06.790 INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization started
+2016-12-29 11:35:07.082 INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization completed in 291 ms
+2016-12-29 11:35:07.129 WARN  o.s.web.servlet.PageNotFound - No mapping found for HTTP request with URI [overdue/hello] in DispatcherServlet with name ''
+2016-12-29 11:35:07.163 INFO  o.s.w.c.s.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@68c9133c: startup date [Thu Dec 29 11:35:06 CST 2016]; root of context hierarchy
+2016-12-29 11:37:35.760 INFO  o.s.t.c.w.WebTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-12-29 11:37:35.788 INFO  o.s.t.c.w.WebTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@52102734, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3541cb24, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@2177849e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@40cb8df7, org.springframework.test.context.transaction.TransactionalTestExecutionListener@13b13b5d, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2892dae4]
+2016-12-29 11:37:35.998 INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring/spring-core.xml]
+2016-12-29 11:37:36.302 INFO  o.s.b.f.x.DefaultBeanDefinitionDocumentReader - Skipped XML bean definition file due to specified profiles [dev] not matching: class path resource [spring/spring-core.xml]
+2016-12-29 11:37:36.303 INFO  o.s.b.f.x.DefaultBeanDefinitionDocumentReader - Skipped XML bean definition file due to specified profiles [prod] not matching: class path resource [spring/spring-core.xml]
+2016-12-29 11:37:36.304 INFO  o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1349883: startup date [Thu Dec 29 11:37:36 CST 2016]; root of context hierarchy
+2016-12-29 11:37:36.566 INFO  o.s.mock.web.MockServletContext - Initializing Spring FrameworkServlet ''
+2016-12-29 11:37:36.567 INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization started
+2016-12-29 11:37:36.829 INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization completed in 262 ms
+2016-12-29 11:37:36.869 WARN  o.s.web.servlet.PageNotFound - No mapping found for HTTP request with URI [overdue/hello] in DispatcherServlet with name ''
+2016-12-29 11:37:36.895 INFO  o.s.w.c.s.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@1349883: startup date [Thu Dec 29 11:37:36 CST 2016]; root of context hierarchy
+2016-12-29 11:38:25.086 INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-12-29 11:38:25.117 INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@55f616cf, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1356d4d4, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@c03cf28, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1329eff, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6497b078, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@41c2284a]
+2016-12-29 11:38:25.333 INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring/spring-core.xml]
+2016-12-29 11:38:25.618 INFO  o.s.b.f.x.DefaultBeanDefinitionDocumentReader - Skipped XML bean definition file due to specified profiles [dev] not matching: class path resource [spring/spring-core.xml]
+2016-12-29 11:38:25.619 INFO  o.s.b.f.x.DefaultBeanDefinitionDocumentReader - Skipped XML bean definition file due to specified profiles [prod] not matching: class path resource [spring/spring-core.xml]
+2016-12-29 11:38:25.620 INFO  o.s.c.s.GenericApplicationContext - Refreshing org.springframework.context.support.GenericApplicationContext@483f6d77: startup date [Thu Dec 29 11:38:25 CST 2016]; root of context hierarchy
+2016-12-29 11:38:25.853 ERROR o.s.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@c03cf28] to prepare test instance [TestService@315f43d5]
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'TestService': Unsatisfied dependency expressed through field 'bidOverduePayDetailService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'bidOverduePayDetailServiceImpl': Unsatisfied dependency expressed through field 'bidOverduePayDetailMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.xunhuan.mapper.BidOverduePayDetailMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:592)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:370)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1219)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:385)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:118)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:74)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:211)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:67)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'bidOverduePayDetailServiceImpl': Unsatisfied dependency expressed through field 'bidOverduePayDetailMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.xunhuan.mapper.BidOverduePayDetailMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:592)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:370)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1219)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:551)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:207)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1131)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1059)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:589)
+	... 26 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.xunhuan.mapper.BidOverduePayDetailMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1466)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1097)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1059)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:589)
+	... 39 common frames omitted
+2016-12-29 11:38:25.921 INFO  o.s.c.s.GenericApplicationContext - Closing org.springframework.context.support.GenericApplicationContext@483f6d77: startup date [Thu Dec 29 11:38:25 CST 2016]; root of context hierarchy
+2016-12-29 11:39:38.538 INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-12-29 11:39:38.568 INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@55f616cf, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1356d4d4, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@c03cf28, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1329eff, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6497b078, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@41c2284a]
+2016-12-29 11:39:38.757 INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring/spring-core.xml]
+2016-12-29 11:39:39.082 INFO  o.s.b.f.x.DefaultBeanDefinitionDocumentReader - Skipped XML bean definition file due to specified profiles [dev] not matching: class path resource [spring/spring-core.xml]
+2016-12-29 11:39:39.083 INFO  o.s.b.f.x.DefaultBeanDefinitionDocumentReader - Skipped XML bean definition file due to specified profiles [prod] not matching: class path resource [spring/spring-core.xml]
+2016-12-29 11:39:39.084 INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+2016-12-29 11:39:39.280 INFO  o.s.c.s.GenericApplicationContext - Refreshing org.springframework.context.support.GenericApplicationContext@483f6d77: startup date [Thu Dec 29 11:39:39 CST 2016]; root of context hierarchy
+2016-12-29 11:39:39.858 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/overdue/add]}" onto public java.lang.String com.xunhuan.controller.BidOverduePayDetailController.add(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-12-29 11:39:39.861 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/overdue/list]}" onto public java.lang.String com.xunhuan.controller.BidOverduePayDetailController.list(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-12-29 11:39:39.861 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/overdue/test],methods=[GET]}" onto public java.lang.String com.xunhuan.controller.BidOverduePayDetailController.demo(java.lang.String) throws java.lang.Exception
+2016-12-29 11:39:39.862 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/overdue/hello],methods=[GET]}" onto public java.lang.String com.xunhuan.controller.BidOverduePayDetailController.printWelcome(org.springframework.ui.ModelMap)
+2016-12-29 11:39:40.268 INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@483f6d77: startup date [Thu Dec 29 11:39:39 CST 2016]; root of context hierarchy
+2016-12-29 11:39:40.354 INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@483f6d77: startup date [Thu Dec 29 11:39:39 CST 2016]; root of context hierarchy
+2016-12-29 11:39:40.474 INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2016-12-29 11:39:40.498 WARN  o.s.c.s.GenericApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'bidOverduePayDetailController': Unsatisfied dependency expressed through field 'bidOverduePayDetailService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'bidOverduePayDetailServiceImpl': Unsatisfied dependency expressed through field 'bidOverduePayDetailMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.xunhuan.mapper.BidOverduePayDetailMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2016-12-29 11:39:40.507 ERROR o.s.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@c03cf28] to prepare test instance [TestService@78411116]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:74)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:211)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:67)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'bidOverduePayDetailController': Unsatisfied dependency expressed through field 'bidOverduePayDetailService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'bidOverduePayDetailServiceImpl': Unsatisfied dependency expressed through field 'bidOverduePayDetailMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.xunhuan.mapper.BidOverduePayDetailMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:592)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:370)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1219)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:551)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:754)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:866)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:128)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:108)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:251)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	... 23 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'bidOverduePayDetailServiceImpl': Unsatisfied dependency expressed through field 'bidOverduePayDetailMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.xunhuan.mapper.BidOverduePayDetailMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:592)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:370)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1219)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:551)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:207)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1131)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1059)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:589)
+	... 41 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.xunhuan.mapper.BidOverduePayDetailMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1466)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1097)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1059)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:589)
+	... 54 common frames omitted
+2016-12-29 11:54:44.864 INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-12-29 11:54:44.895 INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@55f616cf, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1356d4d4, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@c03cf28, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1329eff, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6497b078, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@41c2284a]
+2016-12-29 11:54:45.115 INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring/spring-core.xml]
+2016-12-29 11:54:45.424 INFO  o.s.b.f.x.DefaultBeanDefinitionDocumentReader - Skipped XML bean definition file due to specified profiles [dev] not matching: class path resource [spring/spring-core.xml]
+2016-12-29 11:54:45.425 INFO  o.s.b.f.x.DefaultBeanDefinitionDocumentReader - Skipped XML bean definition file due to specified profiles [prod] not matching: class path resource [spring/spring-core.xml]
+2016-12-29 11:54:45.425 INFO  o.s.c.s.GenericApplicationContext - Refreshing org.springframework.context.support.GenericApplicationContext@483f6d77: startup date [Thu Dec 29 11:54:45 CST 2016]; root of context hierarchy
+2016-12-29 11:54:45.625 ERROR o.s.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@c03cf28] to prepare test instance [TestService@315f43d5]
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'TestService': Unsatisfied dependency expressed through field 'bidOverduePayDetailService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'bidOverduePayDetailServiceImpl': Unsatisfied dependency expressed through field 'bidOverduePayDetailMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.xunhuan.mapper.BidOverduePayDetailMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:592)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:370)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1219)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:385)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:118)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:74)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:211)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:67)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'bidOverduePayDetailServiceImpl': Unsatisfied dependency expressed through field 'bidOverduePayDetailMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.xunhuan.mapper.BidOverduePayDetailMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:592)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:370)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1219)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:551)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:207)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1131)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1059)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:589)
+	... 26 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.xunhuan.mapper.BidOverduePayDetailMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1466)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1097)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1059)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:589)
+	... 39 common frames omitted
+2016-12-29 11:54:45.678 INFO  o.s.c.s.GenericApplicationContext - Closing org.springframework.context.support.GenericApplicationContext@483f6d77: startup date [Thu Dec 29 11:54:45 CST 2016]; root of context hierarchy
+2016-12-29 12:01:33.093 INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-12-29 12:01:33.124 INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@55f616cf, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1356d4d4, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@c03cf28, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1329eff, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6497b078, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@41c2284a]
+2016-12-29 12:01:33.300 INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring/spring-core.xml]
+2016-12-29 12:01:33.594 INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring/spring-config-datasource-druid.xml]
+2016-12-29 12:01:33.681 INFO  o.s.c.s.GenericApplicationContext - Refreshing org.springframework.context.support.GenericApplicationContext@483f6d77: startup date [Thu Dec 29 12:01:33 CST 2016]; root of context hierarchy
+2016-12-29 12:01:33.916 INFO  o.s.c.s.PropertySourcesPlaceholderConfigurer - Loading properties file from class path resource [uat/project.properties]
+2016-12-29 12:02:04.882 INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2016-12-29 12:02:05.702 INFO  o.s.c.s.GenericApplicationContext - Closing org.springframework.context.support.GenericApplicationContext@483f6d77: startup date [Thu Dec 29 12:01:33 CST 2016]; root of context hierarchy
+2016-12-29 12:02:05.713 INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2016-12-29 12:02:38.516 INFO  o.s.t.c.w.WebTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-12-29 12:02:38.540 INFO  o.s.t.c.w.WebTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@52102734, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3541cb24, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@2177849e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@40cb8df7, org.springframework.test.context.transaction.TransactionalTestExecutionListener@13b13b5d, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2892dae4]
+2016-12-29 12:02:38.732 INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring/spring-core.xml]
+2016-12-29 12:02:39.016 INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring/spring-config-datasource-druid.xml]
+2016-12-29 12:02:39.091 INFO  o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1349883: startup date [Thu Dec 29 12:02:39 CST 2016]; root of context hierarchy
+2016-12-29 12:02:39.310 INFO  o.s.c.s.PropertySourcesPlaceholderConfigurer - Loading properties file from class path resource [uat/project.properties]
+2016-12-29 12:03:10.331 INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2016-12-29 12:03:10.943 INFO  o.s.mock.web.MockServletContext - Initializing Spring FrameworkServlet ''
+2016-12-29 12:03:10.943 INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization started
+2016-12-29 12:03:11.290 INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization completed in 346 ms
+2016-12-29 12:03:11.335 WARN  o.s.web.servlet.PageNotFound - No mapping found for HTTP request with URI [overdue/hello] in DispatcherServlet with name ''
+2016-12-29 12:03:11.362 INFO  o.s.w.c.s.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@1349883: startup date [Thu Dec 29 12:02:39 CST 2016]; root of context hierarchy
+2016-12-29 12:03:11.369 INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2016-12-29 12:05:41.430 INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-12-29 12:05:41.461 INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@55f616cf, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1356d4d4, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@c03cf28, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1329eff, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6497b078, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@41c2284a]
+2016-12-29 12:05:41.639 INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring/spring-core.xml]
+2016-12-29 12:05:41.913 INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring/spring-config-datasource-druid.xml]
+2016-12-29 12:05:41.995 INFO  o.s.c.s.GenericApplicationContext - Refreshing org.springframework.context.support.GenericApplicationContext@483f6d77: startup date [Thu Dec 29 12:05:41 CST 2016]; root of context hierarchy
+2016-12-29 12:05:42.240 INFO  o.s.c.s.PropertySourcesPlaceholderConfigurer - Loading properties file from class path resource [uat/project.properties]
+2016-12-29 12:06:13.242 INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2016-12-29 12:06:13.953 INFO  o.s.c.s.GenericApplicationContext - Closing org.springframework.context.support.GenericApplicationContext@483f6d77: startup date [Thu Dec 29 12:05:41 CST 2016]; root of context hierarchy
+2016-12-29 12:06:13.960 INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2016-12-29 12:06:26.952 INFO  o.s.t.c.w.WebTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-12-29 12:06:26.979 INFO  o.s.t.c.w.WebTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@52102734, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3541cb24, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@2177849e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@40cb8df7, org.springframework.test.context.transaction.TransactionalTestExecutionListener@13b13b5d, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2892dae4]
+2016-12-29 12:06:27.206 INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring/spring-core.xml]
+2016-12-29 12:06:27.491 INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring/spring-config-datasource-druid.xml]
+2016-12-29 12:06:27.569 INFO  o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1349883: startup date [Thu Dec 29 12:06:27 CST 2016]; root of context hierarchy
+2016-12-29 12:06:27.772 INFO  o.s.c.s.PropertySourcesPlaceholderConfigurer - Loading properties file from class path resource [uat/project.properties]
+2016-12-29 12:06:58.720 INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2016-12-29 12:06:59.304 INFO  o.s.mock.web.MockServletContext - Initializing Spring FrameworkServlet ''
+2016-12-29 12:06:59.305 INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization started
+2016-12-29 12:06:59.688 INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization completed in 383 ms
+2016-12-29 12:06:59.763 WARN  o.s.web.servlet.PageNotFound - No mapping found for HTTP request with URI [overdue/hello] in DispatcherServlet with name ''
+2016-12-29 12:06:59.829 INFO  o.s.w.c.s.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@1349883: startup date [Thu Dec 29 12:06:27 CST 2016]; root of context hierarchy
+2016-12-29 12:06:59.837 INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2016-12-29 12:16:58.549 INFO  o.s.t.c.w.WebTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-12-29 12:16:58.574 INFO  o.s.t.c.w.WebTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@52102734, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3541cb24, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@2177849e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@40cb8df7, org.springframework.test.context.transaction.TransactionalTestExecutionListener@13b13b5d, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2892dae4]
+2016-12-29 12:16:58.759 INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring/spring-core.xml]
+2016-12-29 12:16:59.051 INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring/spring-config-datasource-druid.xml]
+2016-12-29 12:16:59.123 INFO  o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1349883: startup date [Thu Dec 29 12:16:59 CST 2016]; root of context hierarchy
+2016-12-29 12:16:59.341 INFO  o.s.c.s.PropertySourcesPlaceholderConfigurer - Loading properties file from class path resource [uat/project.properties]
+2016-12-29 12:17:30.343 INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2016-12-29 12:17:31.135 INFO  o.s.mock.web.MockServletContext - Initializing Spring FrameworkServlet ''
+2016-12-29 12:17:31.136 INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization started
+2016-12-29 12:17:31.448 INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization completed in 312 ms
+2016-12-29 12:17:31.503 WARN  o.s.web.servlet.PageNotFound - No mapping found for HTTP request with URI [overdue/hello] in DispatcherServlet with name ''
+2016-12-29 12:17:31.534 INFO  o.s.w.c.s.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@1349883: startup date [Thu Dec 29 12:16:59 CST 2016]; root of context hierarchy
+2016-12-29 12:17:31.543 INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2016-12-29 12:28:01.494 INFO  o.s.t.c.w.WebTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-12-29 12:28:01.519 INFO  o.s.t.c.w.WebTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@52102734, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3541cb24, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@2177849e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@40cb8df7, org.springframework.test.context.transaction.TransactionalTestExecutionListener@13b13b5d, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2892dae4]
+2016-12-29 12:28:01.718 INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring/spring-core.xml]
+2016-12-29 12:28:01.982 INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring/spring-config-datasource-druid.xml]
+2016-12-29 12:28:02.060 INFO  o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1349883: startup date [Thu Dec 29 12:28:02 CST 2016]; root of context hierarchy
+2016-12-29 12:28:02.266 INFO  o.s.c.s.PropertySourcesPlaceholderConfigurer - Loading properties file from class path resource [uat/project.properties]
+2016-12-29 12:28:33.267 INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2016-12-29 12:28:33.929 INFO  o.s.mock.web.MockServletContext - Initializing Spring FrameworkServlet ''
+2016-12-29 12:28:33.930 INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization started
+2016-12-29 12:28:34.215 INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization completed in 284 ms
+2016-12-29 12:28:34.257 WARN  o.s.web.servlet.PageNotFound - No mapping found for HTTP request with URI [overdue/hello] in DispatcherServlet with name ''
+2016-12-29 12:28:34.285 INFO  o.s.w.c.s.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@1349883: startup date [Thu Dec 29 12:28:02 CST 2016]; root of context hierarchy
+2016-12-29 12:28:34.291 INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2016-12-29 13:08:00.068 INFO  o.s.t.c.w.WebTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-12-29 13:08:00.095 INFO  o.s.t.c.w.WebTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@52102734, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3541cb24, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@2177849e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@40cb8df7, org.springframework.test.context.transaction.TransactionalTestExecutionListener@13b13b5d, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2892dae4]
+2016-12-29 13:08:00.297 INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring/spring-core.xml]
+2016-12-29 13:08:00.568 INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring/spring-config-datasource-druid.xml]
+2016-12-29 13:08:00.642 INFO  o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1349883: startup date [Thu Dec 29 13:08:00 CST 2016]; root of context hierarchy
+2016-12-29 13:08:00.848 INFO  o.s.c.s.PropertySourcesPlaceholderConfigurer - Loading properties file from class path resource [uat/project.properties]
+2016-12-29 13:08:31.859 INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2016-12-29 13:08:32.497 INFO  o.s.mock.web.MockServletContext - Initializing Spring FrameworkServlet ''
+2016-12-29 13:08:32.498 INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization started
+2016-12-29 13:08:32.764 INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization completed in 266 ms
+2016-12-29 13:08:32.811 WARN  o.s.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/overdue/hello] in DispatcherServlet with name ''
+2016-12-29 13:08:32.840 INFO  o.s.w.c.s.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@1349883: startup date [Thu Dec 29 13:08:00 CST 2016]; root of context hierarchy
+2016-12-29 13:08:32.848 INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2016-12-29 13:09:27.222 INFO  o.s.t.c.w.WebTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-12-29 13:09:27.245 INFO  o.s.t.c.w.WebTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@52102734, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3541cb24, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@2177849e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@40cb8df7, org.springframework.test.context.transaction.TransactionalTestExecutionListener@13b13b5d, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2892dae4]
+2016-12-29 13:09:27.441 INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring/spring-core.xml]
+2016-12-29 13:09:27.727 INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring/spring-config-datasource-druid.xml]
+2016-12-29 13:09:27.815 INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+2016-12-29 13:09:27.948 INFO  o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1349883: startup date [Thu Dec 29 13:09:27 CST 2016]; root of context hierarchy
+2016-12-29 13:09:28.197 INFO  o.s.c.s.PropertySourcesPlaceholderConfigurer - Loading properties file from class path resource [uat/project.properties]
+2016-12-29 13:09:59.189 INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2016-12-29 13:09:59.827 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/overdue/add]}" onto public java.lang.String com.xunhuan.controller.BidOverduePayDetailController.add(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-12-29 13:09:59.828 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/overdue/list]}" onto public java.lang.String com.xunhuan.controller.BidOverduePayDetailController.list(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-12-29 13:09:59.830 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/overdue/hello],methods=[GET]}" onto public java.lang.String com.xunhuan.controller.BidOverduePayDetailController.printWelcome(org.springframework.ui.ModelMap)
+2016-12-29 13:09:59.830 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/overdue/test],methods=[GET]}" onto public java.lang.String com.xunhuan.controller.BidOverduePayDetailController.demo(java.lang.String) throws java.lang.Exception
+2016-12-29 13:10:00.229 INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@1349883: startup date [Thu Dec 29 13:09:27 CST 2016]; root of context hierarchy
+2016-12-29 13:10:00.310 INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@1349883: startup date [Thu Dec 29 13:09:27 CST 2016]; root of context hierarchy
+2016-12-29 13:10:00.384 INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2016-12-29 13:10:00.430 INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@1349883: startup date [Thu Dec 29 13:09:27 CST 2016]; root of context hierarchy
+2016-12-29 13:10:00.659 INFO  o.s.mock.web.MockServletContext - Initializing Spring FrameworkServlet ''
+2016-12-29 13:10:00.660 INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization started
+2016-12-29 13:10:00.691 INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization completed in 31 ms
+2016-12-29 13:11:28.644 INFO  o.s.w.c.s.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@1349883: startup date [Thu Dec 29 13:09:27 CST 2016]; root of context hierarchy
+2016-12-29 13:11:28.652 INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed

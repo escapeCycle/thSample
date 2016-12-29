@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="thBackWeb:war">
+    <output-path>$PROJECT_DIR$/thBackWeb/target</output-path>
+    <root id="archive" name="thBackWeb-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="thBackWeb:war exploded" />
+    </root>
+  </artifact>
+</component>

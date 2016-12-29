@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/thBackWeb/thBackWeb.iml" filepath="$PROJECT_DIR$/thBackWeb/thBackWeb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thSample.iml" filepath="$PROJECT_DIR$/thSample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thService/thService.iml" filepath="$PROJECT_DIR$/thService/thService.iml" />
+    </modules>
+  </component>
+</project>
+
