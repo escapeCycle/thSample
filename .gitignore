@@ -12,3 +12,4 @@ target/
 indexes/
 *.bak
 classes/
+catalina.base_IS_UNDEFINED
