@@ -1,0 +1,14 @@
+.svn/
+.DS_Store
+idea/
+.idea/
+.settings/
+out/
+*.iml
+.project
+*.ini
+target/
+*.class
+indexes/
+*.bak
+classes/
